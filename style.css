@@ -1,0 +1,71 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif; /* Set a different font */
+    background-color: #f4f4f9;
+    color: #333333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ID Selector for Main Header */
+#main-header {
+    text-align: center;
+    color: #2C3E50; /* Dark blue-grey */
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #3498db; /* Blue bottom border */
+}
+
+/* Class Selector for Content Section */
+.content {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Class Selector for Description Text */
+.description {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* Class Selector for Image Styling */
+.image {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    border: 5px solid #ddd;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    background-color: #2C3E50; /* Dark background */
+    color: #fff;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+/* Add hover effect for Footer */
+.footer:hover {
+    background-color: #3498db;
+    transition: background-color 0.3s ease;
+}
